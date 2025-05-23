@@ -46,3 +46,7 @@ For detailed instructions and code examples, please refer to the `part_DIY_RAG_p
 ## Multimodal Use Cases
 
 For exploring multimodal use cases, refer to the `intro_multimodal_.ipynb` notebook. This notebook demonstrates how to leverage multimodal models for various applications.
+
+## Image Generation with Imagen on Vertex AI
+
+To explore image generation with Imagen on Vertex AI, see the `part_Imagen.ipynb` notebook. This notebook demonstrates how to generate images from text prompts and experiment with parameters like the number of images, seed for reproducibility, and negative prompts. It also covers visual captioning and visual question answering.
