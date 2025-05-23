@@ -42,4 +42,7 @@ The notebook demonstrates the following key features:
 ## Getting Started
 
 For detailed instructions and code examples, please refer to the `part_DIY_RAG_pdf.ipynb` notebook.
-intro_multimodal_.ipynb
+
+## Multimodal Use Cases
+
+For exploring multimodal use cases, refer to the `intro_multimodal_.ipynb` notebook. This notebook demonstrates how to leverage multimodal models for various applications.
