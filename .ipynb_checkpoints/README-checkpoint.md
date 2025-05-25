@@ -8,37 +8,16 @@ This notebook guides you through the process of creating a Retrieval-Augmented G
 
 ## Objectives
 
-The `part_DIY_RAG_pdf.ipynb` notebook covers the following objectives:
 
-- **Document Processing:**
-    - Using open-source libraries (PyPDF2, pdfreader) to extract text from PDF documents.
-    - Using Document AI to process PDF documents and extract text.
-    - Batch processing multiple documents using Document AI.
-- **Embeddings Generation:**
-    - Initializing Vertex AI and setting up the Embeddings API.
-    - Converting text into embeddings using Vertex AI's `textembedding-gecko@003` model.
-- **Data Preparation:**
-    - Splitting text into smaller chunks for efficient retrieval.
-    - Displaying the split text in a Pandas DataFrame.
-- **Vector Search:**
-    - Creating a Matching Engine Index.
-    - Deploying the Index to an Index Endpoint.
-    - Querying the created index for semantic similarity.
-- **Question Answering:**
-    - Importing a question bank from a BigQuery public dataset.
-    - Combining questions with retrieved document content to create prompts for LLMs.
-    - Evaluating different AI models (Gemini, PaLM) for question answering.
 
-## Key Features Demonstrated
+## Multimodal Use Cases
 
-The notebook demonstrates the following key features:
+For exploring multimodal use cases, refer to the `intro_multimodal_.ipynb` notebook. This notebook demonstrates how to leverage multimodal models for various applications.
 
-- **PDF to Text Conversion:** Converting PDF documents to text using both open-source and Document AI methods.
-- **Text Splitting:** Dividing large text into smaller, manageable chunks.
-- **Embeddings Generation:** Creating vector embeddings of text chunks using Vertex AI's `textembedding-gecko@003` model.
-- **Vector Search with Matching Engine:** Building and querying a vector index for semantic similarity search.
-- **Integration with LLMs:** Using retrieved context to improve the accuracy and relevance of LLM responses.
+## Image Generation with Imagen on Vertex AI
 
-## Getting Started
+To explore image generation with Imagen on Vertex AI, see the `part_Imagen.ipynb` notebook. This notebook demonstrates how to generate images from text prompts and experiment with parameters like the number of images, seed for reproducibility, and negative prompts. It also covers visual captioning and visual question answering.
 
-For detailed instructions and code examples, please refer to the `part_DIY_RAG_pdf.ipynb` notebook.
+
+## The RAG_VertexSearch.ipynb notebook demonstrates how to build a Retrieval Augmented Generation (RAG) system using Vertex AI  
+Search and Discovery Engine. It involves setting up a data store, importing PDF documents (Harry Potter books in this case)  
